@@ -4,6 +4,7 @@ header {
 
 main {
   padding: 30px 100px 0px 100px;
+  display: flex;
 }
 #logo {
   margin-left: 30px;
@@ -166,19 +167,21 @@ h1 {
   font-size: 14px;
   color: #666;
 }
-.container3 {
-  display: grid;
-  gap: 10px;
-  grid-template-rows: min-content;
-  max-width: 200px;
-}
 
 .allImages {
   width: 200px;
-  height: auto;
-  text-align: center;
-  line-height: 150px;
+  line-height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
+
 .Container-2 {
   max-width: 400px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
