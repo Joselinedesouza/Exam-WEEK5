@@ -170,29 +170,57 @@ h1 {
 
 .allImages {
   width: 200px;
-
-  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
   align-items: center;
-  margin: 0;
 }
-
+.allImages:first-child {
+  display: flex;
+  justify-content: space-between;
+}
 .Container-2 {
   width: 400px;
 }
-.container3 {
+#container3 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .Sezioni aside {
-  margin-top: 20px;
+  margin-top: 50px;
 }
-
-.container4 {
-  display: flex;
+#container4 {
+  padding: 50px;
   justify-content: center;
 }
-.container4 {
+
+.Cerca {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  border-bottom: 1px solid #999;
+}
+.finale {
   display: flex;
+  align-items: flex-start;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 20px;
+  width: max-content;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.container4 h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ancor {
+  text-align: center;
+}
+#ancor p {
+  display: inline-block;
+  color: #717171;
+  padding: 5px 8px;
+  margin-right: 6px;
 }
