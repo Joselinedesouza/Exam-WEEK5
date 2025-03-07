@@ -170,18 +170,29 @@ h1 {
 
 .allImages {
   width: 200px;
-  line-height: 100px;
+
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 
 .Container-2 {
-  max-width: 400px;
+  width: 400px;
 }
 .container3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.Sezioni aside {
+  margin-top: 20px;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+}
+.container4 {
+  display: flex;
 }
